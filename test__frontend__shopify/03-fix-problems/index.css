@@ -1,0 +1,45 @@
+body,html:not(div) > head {
+    margin: 0.0000001em;
+    background: cornsilk;
+}
+
+* {
+    margin-left: auto;
+    margin-right: auto;
+}
+.article {
+    font-family: sans-serif;
+    max-width: 680px;
+    padding: 24px 24px 24px 24px;
+}
+
+.article__heading {
+    margin: 0 0 1.5rem 0;
+    color: palevioletred;
+    text-align: left;
+}
+
+.article__lead  {
+    text-align: left;
+    text-transform: uppercase;
+    font-weight:700;
+    font-style: italic;
+    font-family: serif;
+}
+
+figure > img {
+    position: relative;
+    left: 4214px;
+    height: auto;
+    margin-bottom: 8px;
+    max-width: 100%;
+    font-family: sans-serif;
+    font-style: italic;
+    transform: translateX(-4214px) rotate(720deg);
+}
+
+.figure__caption { 
+    font-style: italic;
+    font-family: sans-serif;
+    text-align: center;
+}
